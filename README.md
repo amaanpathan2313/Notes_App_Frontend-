@@ -7,8 +7,7 @@ FrontEnd Deployment Link : https://amaanpathan2313.github.io/Notes_App_Frontend-
 
 Backend Deployment Link :  https://notes-app-backend-8xaj.onrender.com
 
-Data Base Cloud Link : mongodb+srv://amanpathan348_db_user:y753tZhhlkzEKEIF@cluster0.rvbyf6x.mongodb.net/Hotel?appName=Cluster0
-
+ 
 
 
 
@@ -110,8 +109,6 @@ notekeep-app/
    cd backend
 
 PORT=3000
-
-MONGODB_URI= mongodb+srv://amanpathan348_db_user:y753tZhhlkzEKEIF@cluster0.rvbyf6x.mongodb.net/Hotel?appName=Cluster0
 
 JWT_TOKEN = shhhhh  
  
