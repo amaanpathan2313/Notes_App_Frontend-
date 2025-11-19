@@ -3,14 +3,11 @@
 # NoteKeep - Full Stack Note Taking Application
 
 
-FrontEnd Deployment Link : https://amaanpathan2313.github.io/Notes_App_Frontend-/notes.html
+FrontEnd Deployment Link : https://notekeep01.netlify.app   
 
 Backend Deployment Link :  https://notes-app-backend-8xaj.onrender.com
 
  
-
-
-
 A beautiful, responsive full-stack note-taking application built with Express.js backend and vanilla HTML/CSS/JavaScript frontend.
 
 ## 📋 Table of Contents
@@ -130,3 +127,6 @@ GET	/api/notes/:id	Get single note	Authorization: Bearer <token>
 POST	/api/notes	Create new note	Authorization: Bearer <token>
 PUT	/api/notes/:id	Update note	Authorization: Bearer <token>
 DELETE	/api/notes/:id	Delete note	Authorization: Bearer <token>
+
+
+![Index_page](./assets/index_page.JPG)

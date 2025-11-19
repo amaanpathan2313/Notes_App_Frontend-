@@ -6,6 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Sign Up - NoteKeep</title>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel=" icon" href="assets/notes.png">
     <style>
         /* Base styles */
         * {
@@ -562,9 +563,9 @@
                         <button class="social-btn">
                             <i class="fab fa-google"></i> Google
                         </button>
-                        <button class="social-btn">
+                        <!-- <button class="social-btn">
                             <i class="fab fa-apple"></i> Apple
-                        </button>
+                        </button> -->
                     </div>
 
                     <div class="login-link">
@@ -665,9 +666,9 @@
                 alert(data.msg, "Please Login");
 
 
-               
-                    window.location.href = "./login.html";
-              
+
+                window.location.href = "./login.html";
+
 
             } catch (err) {
                 console.log('Error occurred while signing up user:', err.message);

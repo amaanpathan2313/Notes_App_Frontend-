@@ -6,6 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Dashboard - NoteKeep</title>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel=" icon" href="assets/notes.png">
     <style>
         /* Base styles */
         * {
@@ -574,7 +575,7 @@
             }
         }
 
-        #logout-btn{
+        #logout-btn {
             padding: 10px;
             background-color: #4f46e5;
             color: white;
@@ -589,7 +590,7 @@
     <div class="sidebar">
         <div class="sidebar-header">
             <div class="logo">
-                
+
                 <i class="fas fa-book"></i>
                 <span>NoteKeep</span>
             </div>
@@ -681,10 +682,10 @@
                 <div class="user-profile">
                     <div class="user-avatar" id='dpp'>SD</div>
                     <!-- <button class="user-avatar"> Logout</button> -->
-                      <button class="btn btn-primary" id="logout-btn">
-                    <i class="fas fa-sign-out-alt"></i>
-                    Logout
-                </button>
+                    <button class="btn btn-primary" id="logout-btn">
+                        <i class="fas fa-sign-out-alt"></i>
+                        Logout
+                    </button>
                 </div>
             </div>
         </div>
@@ -1124,7 +1125,7 @@
 
         // Logout button
 
-           const logoutBtn = document.getElementById('logout-btn');
+        const logoutBtn = document.getElementById('logout-btn');
 
         logoutBtn.addEventListener('click', function () {
             if (confirm('Are you sure you want to logout?')) {
