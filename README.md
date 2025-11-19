@@ -67,7 +67,7 @@ A beautiful, responsive full-stack note-taking application built with Express.js
 - **Font Awesome** - Icons
 
 ## 📁 Project Structure
-
+```
 notekeep-app/
 ├── backend/
 │ ├── models/
@@ -90,7 +90,7 @@ notekeep-app/
 │ ├── dashboard.html # Main dashboard
 │ └── add-note.html # Create note page
 └── README.md
-
+```
 
 ## 🚀 Installation
 
@@ -128,5 +128,6 @@ POST	/api/notes	Create new note	Authorization: Bearer <token>
 PUT	/api/notes/:id	Update note	Authorization: Bearer <token>
 DELETE	/api/notes/:id	Delete note	Authorization: Bearer <token>
 
+* Project Screenshots : 
 
 ![Index_page](./assets/index_page.JPG)
