@@ -10,6 +10,16 @@ Backend Deployment Link :  https://notes-app-backend-8xaj.onrender.com
  
 A beautiful, responsive full-stack note-taking application built with Express.js backend and vanilla HTML/CSS/JavaScript frontend.
 
+* Project Screenshots : 
+
+![Index_page](./assets/index_page.JPG)
+![signup_page](./assets/signup_page.JPG)
+![main_page](./assets/main_page.JPG)
+![add_note_section](./assets/add_note_section.JPG)
+ 
+
+
+
 ## 📋 Table of Contents
 
 - [Features](#features)
@@ -127,7 +137,4 @@ GET	/api/notes/:id	Get single note	Authorization: Bearer <token>
 POST	/api/notes	Create new note	Authorization: Bearer <token>
 PUT	/api/notes/:id	Update note	Authorization: Bearer <token>
 DELETE	/api/notes/:id	Delete note	Authorization: Bearer <token>
-
-* Project Screenshots : 
-
-![Index_page](./assets/index_page.JPG)
+ 
