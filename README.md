@@ -10,11 +10,18 @@ Backend Deployment Link :  https://notes-app-backend-8xaj.onrender.com
  
 A beautiful, responsive full-stack note-taking application built with Express.js backend and vanilla HTML/CSS/JavaScript frontend.
 
-* Project Screenshots : 
+# Project Screenshots : 
 
+* Index page
 ![Index_page](./assets/index_page.JPG)
+
+* Signup page
 ![signup_page](./assets/signup_page.JPG)
+
+*Main page
 ![main_page](./assets/main_page.JPG)
+
+* Add note section
 ![add_note_section](./assets/add_note_section.JPG)
  
 
